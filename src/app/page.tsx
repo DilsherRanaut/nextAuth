@@ -67,7 +67,7 @@ export default function Home() {
               NextAuth.js
             </h1>
             <p className="text-gray-600">
-              Authentication with Google
+              Authentication with Google 
             </p>
           </div>
           <div className="space-y-6">
