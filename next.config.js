@@ -2,7 +2,13 @@
 const nextConfig = {
   // App directory is now stable in Next.js 14+
   images: {
-    domains: ['lh3.googleusercontent.com', 'lh4.googleusercontent.com', 'lh5.googleusercontent.com', 'lh6.googleusercontent.com'],
+    domains: [
+      'avatars.githubusercontent.com',
+      'lh3.googleusercontent.com',
+      'lh4.googleusercontent.com',
+      'lh5.googleusercontent.com',
+      'lh6.googleusercontent.com',
+    ],
     remotePatterns: [
       {
         protocol: 'https',

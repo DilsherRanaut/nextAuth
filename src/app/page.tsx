@@ -73,6 +73,8 @@ export default function Home() {
           <div className="space-y-6">
             <div className="text-center">
               <div className="w-[100px] h-[100px] mx-auto mb-4 rounded-full overflow-hidden border-2 border-gray-200 relative">
+                
+               {console.log(session.user?.image)}
                 {session.user?.image ? (
                   <Image
                     src={session.user.image}
@@ -126,7 +128,7 @@ export default function Home() {
             NextAuth.js
           </h1>
           <p className="text-gray-600">
-            Authentication with Google
+            Authentication with Google And GitHub
           </p>
         </div>
         <div className="space-y-6">
